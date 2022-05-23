@@ -1,0 +1,142 @@
+// Align Me
+.AlignStars {
+    color: $green;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+    button {
+        cursor: pointer;
+    }
+
+    h1 {
+        &:hover {
+            color: $blue;
+            transition: 0.5s ease-in-out;
+        }
+    }
+}
+
+// Hide Me
+.TheHidden {
+    color: lime;
+    padding-bottom: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        cursor: pointer;
+    }
+
+    h1 {
+        &:hover {
+            color: $blue;
+            transition: 0.5s ease-in-out;
+        }
+    }
+}
+
+// Counter
+.counting {
+    color: lightblue;
+    padding-bottom: 50px;
+
+    button {
+        cursor: pointer;
+    }
+
+    h1 {
+        &:hover {
+            color: $blue;
+            transition: 0.5s ease-in-out;
+        }
+    }
+
+    .buttons {
+        text-align: center;
+    }
+}
+
+// Colors
+.colors {
+    color: $darkgreen;
+
+    button {
+        cursor: pointer;
+    }
+
+    h1 {
+        &:hover {
+            color: $blue;
+            transition: 0.5s ease-in-out;
+        }
+    }
+}
+
+.colors form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app h1 {
+    font-size: 25px;
+}
+
+.app {
+    .title h1 {
+        font-size: 35px;
+        padding-top: 30px;
+        color: $lightgreen;
+
+        &:hover {
+            color: $blue;
+            transition: 0.5s ease-in-out;
+        }
+
+    }
+}
+
+// Increment
+.incrementor {
+    color: $lightest;
+    text-align: center;
+    padding-bottom: 20px;
+
+    button {
+        cursor: pointer;
+    }
+
+    h1 {
+        &:hover {
+            color: $lightest;
+            transition: 0.5s ease-in-out;
+        }
+    }
+}
+
+// Hide Time
+.father-time {
+    font-size: 20px;
+    padding-top: 30px;
+    color: $lime;
+
+    button {
+        cursor: pointer;
+    }
+
+    h1 {
+        text-align: center;
+
+        &:hover {
+            color: $blue;
+            transition: 0.5s ease-in-out;
+        }
+    }
+}
+
+// Bottom
+.motivation {
+    padding-top: 250px;
+    font-size: 10px;
+}
